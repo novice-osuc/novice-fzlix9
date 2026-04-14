@@ -73,7 +73,7 @@ h3 {
     margin-bottom: 0.5rem;
 }
 
-/* ========== ARTÍCULOS ========== */
+/* ========== art ========== */
 article {
     background-color: #e6f5fe;
     padding: 1.5rem;
@@ -123,14 +123,5 @@ body > footer {
     margin-top: 2rem;
     padding: 1rem;
     color: #b17887;
-    font-size: 0.9rem;
-}
-
-/* ========== MIGAS DE PAN ========== */
-nav[aria-label="Ruta de navegación"] {
-    background-color: #17065a;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    margin-bottom: 1rem;
     font-size: 0.9rem;
 }
