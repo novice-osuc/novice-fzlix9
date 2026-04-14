@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(142, 182, 228);
+    color: #1e1e2a;
+    padding: 20px;
+}
+
+/* ========== HEADER Y NAV ========== */
+header {
+    background-color: #eda4cd;
+    color: rgb(47, 0, 34);
+    padding: 2rem;
+    border-radius: 60px 50px 60px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #ff4747;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+/* ========== index ========== */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgb(253, 253, 253);
+    padding: 2rem;
+    border-radius: 0 16px 16px 16px;
+    box-shadow: 0 4px 12px rgba(255, 245, 245, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #2c2c3a;
+    border-left: 6px solid #ff4769;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+h3 {
+    color: #4a4a5a;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ========== ARTÍCULOS ========== */
+article {
+    background-color: #e6f5fe;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 30px;
+    border: 1px solid #f0c5cf;
+}
+
+article header h3 a {
+    color: #641e3a;
+    text-decoration: none;
+}
+
+article header h3 a:hover {
+    color: #ff478d;
+    text-decoration: underline;
+}
+
+article footer {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+/* ========== LISTAS ========== */
+ul, ol {
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+li {
+    margin-bottom: 0.3rem;
+}
+
+/* ========== ENLACES ========== */
+a {
+    color: #a674c8;
+}
+
+a:hover {
+    color: #d91e78;
+}
+
+/* ========== FOOTER ========== */
+body > footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: #b17887;
+    font-size: 0.9rem;
+}
+
+/* ========== MIGAS DE PAN ========== */
+nav[aria-label="Ruta de navegación"] {
+    background-color: #17065a;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
